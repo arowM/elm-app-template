@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/*.html -d ../../docs/bleater --public-url /elm-neat-layout/bleater",
+    "build": "parcel build src/index.html -d docs/elm-app-template --public-url /elm-app-template",
     "format": "elm-format src",
     "test": "elm-analyse && elm-format --validate src/"
   },
