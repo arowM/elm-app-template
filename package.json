@@ -10,11 +10,12 @@
     "postcss": "^7.0.6",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-modules": "^1.4.1",
+    "rimraf": "3.0.0",
     "sass": "^1.15.2"
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d docs/elm-app-template --public-url /elm-app-template",
+    "build": "rimraf docs/ && parcel build src/index.html -d docs/ --public-url /elm-app-template",
     "format": "elm-format src",
     "test": "elm-analyse && elm-format --validate src/"
   },
