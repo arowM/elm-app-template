@@ -4,7 +4,7 @@ require('../style/app.scss');
 const { Elm } = require('../Main.elm');
 
 const app = Elm.Main.init({
-  node: document.body,
+  node: document.body.appendChild(document.createElement('span')),
   flags: null
 });
 
