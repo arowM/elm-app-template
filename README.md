@@ -27,5 +27,5 @@ $ npm run format
 ## Test
 
 ```
-$npm test
+$ npm test
 ```
