@@ -6,7 +6,7 @@
     "elm-analyse": "0.16.5",
     "elm-format": "^0.8.1",
     "parcel": "1.12.4",
-    "parcel-bundler": "https://github.com/arowM/parcel/archive/parcel-bundler@1.12.4.tar.gz",
+    "parcel-bundler": "1.12.4",
     "postcss": "7.0.21",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-modules": "^1.4.1",
