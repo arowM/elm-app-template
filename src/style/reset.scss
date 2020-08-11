@@ -1,30 +1,42 @@
 *,
 *::before,
 *::after {
-	color: inherit;
-	margin: 0;
-	border: 0;
   box-sizing: border-box;
-	font-style: normal;
-	font-weight: normal;
-	text-align: left;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
   vertical-align: top;
-	list-style: none;
-	font-family: inherit;
+  list-style: none;
+  font-family: inherit;
   font-size: inherit;
   line-height: 1.2;
-  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
-  font-feature-settings : "pkna";
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-feature-settings: "pkna";
 }
 
 code {
   font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
 }
 
-html {
-  font-size: 16px;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

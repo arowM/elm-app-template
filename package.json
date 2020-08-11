@@ -10,20 +10,22 @@
     "postcss": "7.0.32",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-modules": "^3.2.0",
-    "rimraf": "3.0.2"
+    "rimraf": "3.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
   },
   "scripts": {
     "doc": "elm-doc-preview -p 8001",
     "start": "parcel src/index.html",
     "build": "rimraf dist/ && parcel build src/index.html dist/ --public-url /elm-app-template",
     "format": "elm-format src",
-    "test": "elm-analyse && elm-format --validate src/"
+    "test": "stylelint src/style/ && elm-analyse && elm-format --validate src/"
   },
   "author": "Kadzuya Okamoto",
   "license": "MIT",
   "devDependencies": {
-    "elm-hot": "1.1.5",
-    "node-elm-compiler": "5.0.4",
+    "node": "^14.7.0",
     "sass": "^1.26.10"
   }
 }
