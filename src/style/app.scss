@@ -1,4 +1,4 @@
-@import 'variables';
+@use 'variables' as *;
 
 .wrapper {
   border: solid 2px $sub-color2;
