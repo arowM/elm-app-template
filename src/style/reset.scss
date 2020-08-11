@@ -24,12 +24,13 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, 'メイリオ', Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Meiryo,
+    "メイリオ", Osaka, "MS PGothic", arial, helvetica, sans-serif;
   font-feature-settings: "pkna";
 }
 
 code {
-  font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+  font-family: Consolas, "Courier New", Courier, Monaco, monospace;
 }
 
 @media (prefers-reduced-motion: reduce) {
