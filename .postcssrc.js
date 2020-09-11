@@ -5,6 +5,7 @@ module.exports =
     "modules": true,
     "plugins": {
       "autoprefixer": {},
+      "postcss-100vh-fix": {},
       "postcss-flexbugs-fixes": {},
       "postcss-modules": {
         "generateScopedName": function(name, filename, css) {
