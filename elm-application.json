@@ -2,7 +2,6 @@
     "name": "arowM/elm-app-template",
     "summary": "Project template for Elm applications",
     "version": "1.0.0",
-    "exposed-modules": [
-    ]
+    "exposed-modules": []
 }
 

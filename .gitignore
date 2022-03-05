@@ -1,26 +1,5 @@
+.parcel-cache
 dist
-
-### https://raw.github.com/github/gitignore/c4ed859434e4eb33c85ad8048fc907d470f8ae4b/Global/Vim.gitignore
-
-# Swap
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
-
-# Session
-Session.vim
-Sessionx.vim
-
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
-
 
 ### https://raw.github.com/github/gitignore/c4ed859434e4eb33c85ad8048fc907d470f8ae4b/Node.gitignore
 

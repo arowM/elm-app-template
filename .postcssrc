@@ -1,0 +1,7 @@
+{
+  "plugins": {
+    "autoprefixer": {},
+    "postcss-100vh-fix": {},
+    "postcss-flexbugs-fixes": {},
+  }
+}
