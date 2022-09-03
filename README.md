@@ -1,4 +1,4 @@
-# elm-parcel-template
+# Elm app template using parcel
 
 ## Install dependencies
 
